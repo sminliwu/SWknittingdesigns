@@ -1,0 +1,205 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.7in]{geometry} 		% defines page margin
+\usepackage{knitting} 				% defines \chart and \textknit
+\usepackage{titling} 				% title page
+\usepackage{graphicx,xspace, scrextend}	% defines space control stuff
+\usepackage{tabularx, array, colortbl}	% defines tables
+\usepackage{multicol} 				% defines columns
+\usepackage{multirow} 				% defines multirows, combined cells in tables
+\usepackage{framed} 				% defines boxes for notes and written directions
+\usepackage[x11names]{xcolor} 		% extends color library
+\usepackage{hyperref}				% hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\pdfmapfile{+knitfont.map}
+
+% font selection
+\usepackage{palatino, moresize, sectsty}
+\allsectionsfont{\sffamily}
+
+% PICK AND CHOOSE COMMANDS BASED ON NEEDS
+
+\renewcommand{\arraystretch}{2} % compresses tables for pattern keys
+
+\newcolumntype{L}[1]{>{\leftalign\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% length parameters
+\setlength{\parindent}{0pt} % disables indentation for paragraphs
+\setlength{\columnsep}{0.7cm} % column separation in multicol environment
+
+% color parameters
+\colorlet{framecolor}{black}
+\colorlet{shadecolor}{LemonChiffon1}
+\colorlet{highlight}{yellow}
+
+% custom commands
+\newcommand{\comment}[1]{} % allows for multiline comments that LaTeX will ignore
+
+\newcommand{\vocab}[1]{\emph{\textbf{#1}}} % format for highlighting definitions of stitches, vocabulary terms
+\newcommand{\rowDir}[1]{\textbf{#1:}} % indent for written instructions within paragraphs
+
+\renewcommand{\repeat}[1]{\textbf{*[#1]*}} % format for written repeats, bold with *[ stitches ]*
+\newcommand{\x}{$\times$}			% times symbol but shorthand
+\newcommand{\setrepeat}[2]{\textbf{[#1]}\x{#2}}		% format for repeats with set number of repetitions, bold with [ stitches ]
+
+\newcommand{\blank}{\underline{\hspace{2em}} } % written instructions, fill-in-the-blank box
+\newcommand{\highlighted}[1]{\colorbox{highlight}{#1}} % written instructions, highlight particular text
+
+
+% stitch count commands
+\newcommand{\increase}[1]{(\emph{+#1 
+	\ifnum#1=1{st}\else{sts}\fi})}
+\newcommand{\decrease}[1]{(\emph{$-$#1
+	\ifnum#1=1{st}\else{sts}\fi})}
+\newcommand{\stitchcount}[1]{(\emph{#1 sts})}
+
+% marker instructions
+\renewcommand{\pm}[1]{\emph{pm #1}} % place stitch marker
+\newcommand{\sm}{\emph{sm}} % slip marker
+\renewcommand{\rm}[1]{\emph{rm #1}} % remove stitch marker
+
+% thick horizontal line
+\makeatletter \newcommand{\thickhline}{
+    \noalign {\ifnum 0=`}\fi \hrule height 1.5pt
+    \futurelet \reserved@a \@xhline
+}
+\makeatother
+
+% custom environments
+\newenvironment{frnote}
+    {% framed environment for pattern notes
+    	\setlength{\FrameRule}{1.5pt}
+    	\def\FrameCommand{\fboxrule=\FrameRule\fboxsep=\FrameSep \fcolorbox{framecolor}{shadecolor}}
+    	\MakeFramed {\FrameRestore}}
+    {\setlength{\FrameRule}{1pt}
+	\endMakeFramed}
+
+\newenvironment{frdirection}
+    {% framed environment for written directions
+	\def\FrameCommand{\fboxrule=\FrameRule\fboxsep=\FrameSep \fbox}
+   	\MakeFramed {\advance\hsize-\width \FrameRestore}
+    	\addmargin[1.5cm]{0pt}}
+    {\endaddmargin
+	\endMakeFramed}
+
+\newenvironment{unframed}
+    {% unframed environment for written directions
+	\begin{addmargin}[2em]{0pt}
+	\setlength{\parindent}{-2em}}
+    {%\vspace{1em}
+	\setlength{\parindent}{0em}
+	\end{addmargin}}
+
+\title{Generic Pattern} % pattern name here
+\author{Shanel Wu (Piper Nell)}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE PAGE 
+\begin{titlingpage}
+
+% COVER PHOTO
+% uncommend line below if you want a background fill image
+% \ThisLRCornerWallPaper{1.0}{image.jpg} 
+
+{\fontfamily{qag}\selectfont
+\HUGE\textbf{\thetitle}
+\hspace{2em} % adjust this space or use \hfill
+\normalsize\theauthor
+}
+
+\begin{multicols}{2}
+
+% Cute description here
+
+\subsection*{Yarn Requirements}
+
+% yardage, number of colors, etc.
+
+% also include: sample yarn, other yarn suggestions
+\emph{Sample used}
+
+\subsection*{Tools}
+
+\begin{itemize}
+\item % NEEDLES
+\item tapestry needle
+\item % STITCH MARKERS
+\end{itemize}
+
+\subsection*{Sizing/Gauge}
+
+% sample measurements, gauge, notes on ease, etc.
+
+\subsection*{Techniques}
+
+This pattern is suitable for an % DIFFICULTY LEVEL
+Prior to knitting this pattern, you should be familiar with % PREREQUISITE TECHNIQUES
+For a complete list of stitches used, see Pattern Key.
+
+% discuss any special techniques and tutorials included
+
+\vfill
+\columnbreak
+
+\subsection*{Pattern Key}
+
+% formatting notes for charts and written directions
+\vocab{Charts:} repeats = thick borders \chart{\!\underline{\overline{-}}\!}  
+
+\vocab{Written instructions:} 
+
+repeats = \setrepeat{stitches}{\#} \emph{or} \textbf{*[stitches]*} to specified point; 
+special stitches = \highlighted{stitches}
+\vspace{-1em}
+
+% abbreviation key - fill in with all abbreviations/stitch patterns used in design: written abbreviation, full stitch name or explanation
+% try to keep them in sequential order as they appear in the pattern, or in an order that builds upon previous definitions
+% chart symbols included in separate keys attached to their respective charts
+% stitches with explanations must first be BOLDED, followed by colon then explanation
+\begin{center}
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{| C{0.2\linewidth}  p{0.6\linewidth} | }
+\thickhline \rowcolor{shadecolor} 
+\textbf{Written}	& \textbf{Description} \\ \thickhline
+CO 	& cast on \\
+k	&  knit \\
+p	& purl   \\
+k tbl	& knit through the back loop \\
+yo		& yarn-over  \\
+k2tog 	& knit 2 together \\
+ssk		& slip slip knit \\
+k3tog 	& knit 3 together \\
+sssk		& \textbf{slip slip slip knit:} slip 3 knitwise individually, k3tog through back loop\\
+sk2p	& \textbf{slip k2tog psso:} slip 1 st knitwise, k2tog, pass slipped st over (psso)\\
+st st 	& \textbf{stockinette stitch:} (in the round) k all sts; (in the flat) k RS rows, p WS rows \\
+\hline
+\end{tabular}
+}
+\end{center}
+\end{multicols}
+\end{titlingpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BEGIN INSTRUCTIONS
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDICES (IF ANY)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COPYRIGHT
+
+\begin{frnote} \ssmall
+Pattern \copyright 2019 Shanel Wu. Photographs \copyright 2019 \blank. % if other photographer
+All rights reserved. In purchasing this pattern, you agree to print and use this pattern only for personal use. Do not redistribute or sell paper or electronic copies of this pattern.
+\end{frnote}
+
+\end{document}

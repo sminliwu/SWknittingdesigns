@@ -1,0 +1,1099 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.12.29)  12 APR 2018 15:37
+entering extended mode
+**C:/Users/Shanel*Wu/Box*Sync/Knitting/Patterns/Helicase/helicase.tex
+("C:/Users/Shanel Wu/Box Sync/Knitting/Patterns/Helicase/helicase.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\knitting\knitting.sty"
+Package: knitting 2010/08/29
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\leftgap@knit=\skip43
+\bgshift@knit=\skip44
+\chartwidth@knit=\skip45
+\stitchcountwidth@knit=\skip46
+\rnleftwd@knit=\skip47
+\rnrightwd@knit=\skip48
+\bgbox@knit=\box26
+\fgbox@knit=\box27
+\ggbox@knit=\box28
+\c@rownumber=\count91
+\c@tempcount@knit=\count92
+\c@rownumberskip=\count93
+\c@stitchcountin=\count94
+\c@stitchcountinprev=\count95
+\c@stitchcountout=\count96
+LaTeX Font Info:    Try loading font information for U+knit on input line 140.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\knitting\uknit.fd"
+File: T1knit.fd 2010/08/09 Knit fonts
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\titling\titling.sty"
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip49
+\thanksmargin=\skip50
+\droptitle=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrextend.sty"
+Package: scrextend 2012/05/15 v3.11 KOMA-Script KOMA-Script package (extend oth
+er classes with features of KOMA-Script classes)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2011/03/09 v3.09 KOMA-Script package (loading files)
+
+Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))) ("C:\Program Files\MiKTeX 2.9\tex\latex\moresize\moresize.sty"
+Package: moresize 1999/07/26 v1.9 (more font sizes)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen113
+\enit@toks=\toks16
+\enit@inbox=\box29
+\enitdp@description=\count97
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks17
+\extratabsurround=\skip53
+\backup@length=\skip54
+)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count98
+\TX@ftn=\toks18
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks19
+\minrowclearance=\skip55
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count99
+\mult@box=\box30
+\multicol@leftmargin=\dimen121
+\c@unbalance=\count100
+\c@collectmore=\count101
+\doublecol@number=\count102
+\multicoltolerance=\count103
+\multicolpretolerance=\count104
+\full@width=\dimen122
+\page@free=\dimen123
+\premulticols=\dimen124
+\postmulticols=\dimen125
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box31
+\last@line=\box32
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count105
+\c@finalcolumnbadness=\count106
+\last@try=\dimen126
+\multicolovershoot=\dimen127
+\multicolundershoot=\dimen128
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\multicol@sort@counter=\count107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen129
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
+\fb@frw=\dimen130
+\fb@frh=\dimen131
+\FrameRule=\dimen132
+\FrameSep=\dimen133
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
+Package: mdframed 2012/04/08 v1.5: mdframed
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3names.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3bootstrap.sty"
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count108
+)
+Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3basics.sty"
+Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3expan.sty"
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3tl.sty"
+Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3seq.sty"
+Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3int.sty"
+Package: l3int 2012/03/04 v3490 L3 Experimental integers
+\c_max_int=\count109
+\l_tmpa_int=\count110
+\l_tmpb_int=\count111
+\l_tmpc_int=\count112
+\g_tmpa_int=\count113
+\g_tmpb_int=\count114
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3quark.sty"
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3prg.sty"
+Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
+\g_prg_map_int=\count115
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3clist.sty"
+Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3token.sty"
+Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3prop.sty"
+Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3msg.sty"
+Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3file.sty"
+Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count116
+\l_iow_line_length_int=\count117
+\l_iow_target_length_int=\count118
+\l_iow_current_line_int=\count119
+\l_iow_current_word_int=\count120
+\l_iow_current_indentation_int=\count121
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3skip.sty"
+Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen134
+\l_tmpb_dim=\dimen135
+\l_tmpc_dim=\dimen136
+\g_tmpa_dim=\dimen137
+\g_tmpb_dim=\dimen138
+\l_tmpa_skip=\skip58
+\l_tmpb_skip=\skip59
+\l_tmpc_skip=\skip60
+\g_tmpa_skip=\skip61
+\g_tmpb_skip=\skip62
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3keys.sty"
+Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count122
+\l_keys_choice_int=\count123
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3fp.sty"
+Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
+\c_one_million=\count124
+\c_one_hundred_million=\count125
+\c_five_hundred_million=\count126
+\c_one_thousand_million=\count127
+\c_fp_pi_by_four_decimal_int=\count128
+\c_fp_pi_by_four_extended_int=\count129
+\c_fp_pi_decimal_int=\count130
+\c_fp_pi_extended_int=\count131
+\c_fp_two_pi_decimal_int=\count132
+\c_fp_two_pi_extended_int=\count133
+\l_fp_count_int=\count134
+\l_fp_div_offset_int=\count135
+\l_fp_exp_integer_int=\count136
+\l_fp_exp_decimal_int=\count137
+\l_fp_exp_extended_int=\count138
+\l_fp_exp_exponent_int=\count139
+\l_fp_input_a_sign_int=\count140
+\l_fp_input_a_integer_int=\count141
+\l_fp_input_a_decimal_int=\count142
+\l_fp_input_a_exponent_int=\count143
+\l_fp_input_b_sign_int=\count144
+\l_fp_input_b_integer_int=\count145
+\l_fp_input_b_decimal_int=\count146
+\l_fp_input_b_exponent_int=\count147
+\l_fp_input_a_extended_int=\count148
+\l_fp_input_b_extended_int=\count149
+\l_fp_mul_a_i_int=\count150
+\l_fp_mul_a_ii_int=\count151
+\l_fp_mul_a_iii_int=\count152
+\l_fp_mul_a_iv_int=\count153
+\l_fp_mul_a_v_int=\count154
+\l_fp_mul_a_vi_int=\count155
+\l_fp_mul_b_i_int=\count156
+\l_fp_mul_b_ii_int=\count157
+\l_fp_mul_b_iii_int=\count158
+\l_fp_mul_b_iv_int=\count159
+\l_fp_mul_b_v_int=\count160
+\l_fp_mul_b_vi_int=\count161
+\l_fp_mul_output_int=\count162
+\l_fp_output_sign_int=\count163
+\l_fp_output_integer_int=\count164
+\l_fp_output_decimal_int=\count165
+\l_fp_output_exponent_int=\count166
+\l_fp_output_extended_int=\count167
+\l_fp_round_position_int=\count168
+\l_fp_round_target_int=\count169
+\l_fp_split_sign_int=\count170
+\l_fp_internal_int=\count171
+\l_fp_trig_octant_int=\count172
+\l_fp_trig_sign_int=\count173
+\l_fp_trig_decimal_int=\count174
+\l_fp_trig_extended_int=\count175
+\l_fp_internal_dim=\dimen139
+\l_fp_internal_skip=\skip63
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3box.sty"
+Package: l3box 2012/03/04 v3490 L3 Experimental boxes
+\l_tmpb_box=\box56
+\l_box_top_dim=\dimen140
+\l_box_bottom_dim=\dimen141
+\l_box_left_dim=\dimen142
+\l_box_right_dim=\dimen143
+\l_box_top_new_dim=\dimen144
+\l_box_bottom_new_dim=\dimen145
+\l_box_left_new_dim=\dimen146
+\l_box_right_new_dim=\dimen147
+\l_box_internal_box=\box57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3coffins.sty"
+Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box58
+\l_coffin_internal_dim=\dimen148
+\l_coffin_offset_x_dim=\dimen149
+\l_coffin_offset_y_dim=\dimen150
+\l_coffin_x_dim=\dimen151
+\l_coffin_y_dim=\dimen152
+\l_coffin_x_prime_dim=\dimen153
+\l_coffin_y_prime_dim=\dimen154
+\l_coffin_Depth_dim=\dimen155
+\l_coffin_Height_dim=\dimen156
+\l_coffin_TotalHeight_dim=\dimen157
+\l_coffin_Width_dim=\dimen158
+\c_empty_coffin=\box59
+\l_coffin_aligned_coffin=\box60
+\l_coffin_aligned_internal_coffin=\box61
+\l_coffin_bounding_shift_dim=\dimen159
+\l_coffin_left_corner_dim=\dimen160
+\l_coffin_right_corner_dim=\dimen161
+\l_coffin_bottom_corner_dim=\dimen162
+\l_coffin_top_corner_dim=\dimen163
+\l_coffin_scaled_total_height_dim=\dimen164
+\l_coffin_scaled_width_dim=\dimen165
+\l_coffin_display_coffin=\box62
+\l_coffin_display_coord_coffin=\box63
+\l_coffin_display_pole_coffin=\box64
+\l_coffin_display_offset_dim=\dimen166
+\l_coffin_display_x_dim=\dimen167
+\l_coffin_display_y_dim=\dimen168
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3color.sty"
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3luatex.sty"
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count176
+\g_cctab_stack_int=\count177
+))
+Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count178
+\l_xparse_m_args_int=\count179
+\l_xparse_mandatory_args_int=\count180
+\l_xparse_processor_int=\count181
+\l_xparse_v_nesting_int=\count182
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count183
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+\c@abspage=\count184
+Package zref Info: New property: abspage on input line 62.
+)
+\mdf@templength=\skip64
+\c@mdf@globalstyle@cnt=\count185
+\mdf@skipabove@length=\skip65
+\mdf@skipbelow@length=\skip66
+\mdf@leftmargin@length=\skip67
+\mdf@rightmargin@length=\skip68
+\mdf@innerleftmargin@length=\skip69
+\mdf@innerrightmargin@length=\skip70
+\mdf@innertopmargin@length=\skip71
+\mdf@innerbottommargin@length=\skip72
+\mdf@splittopskip@length=\skip73
+\mdf@splitbottomskip@length=\skip74
+\mdf@outermargin@length=\skip75
+\mdf@innermargin@length=\skip76
+\mdf@linewidth@length=\skip77
+\mdf@innerlinewidth@length=\skip78
+\mdf@middlelinewidth@length=\skip79
+\mdf@outerlinewidth@length=\skip80
+\mdf@roundcorner@length=\skip81
+\mdf@footenotedistance@length=\skip82
+\mdf@userdefinedwidth@length=\skip83
+\mdf@frametitleaboveskip@length=\skip84
+\mdf@frametitlebelowskip@length=\skip85
+\mdf@frametitlerulewidth@length=\skip86
+\mdf@frametitleleftmargin@length=\skip87
+\mdf@frametitlerightmargin@length=\skip88
+\mdf@shadowsize@length=\skip89
+\mdf@frametitlebox=\box65
+\mdf@footnotebox=\box66
+\mdf@splitbox@one=\box67
+\mdf@splitbox@two=\box68
+\mdfsplitboxwidth=\skip90
+\mdfsplitboxtotalwidth=\skip91
+\mdfsplitboxheight=\skip92
+\mdfsplitboxdepth=\skip93
+\mdfsplitboxtotalheight=\skip94
+\mdfframetitleboxwidth=\skip95
+\mdfframetitleboxtotalwidth=\skip96
+\mdfframetitleboxheight=\skip97
+\mdfframetitleboxdepth=\skip98
+\mdfframetitleboxtotalheight=\skip99
+\mdffootnoteboxwidth=\skip100
+\mdffootnoteboxtotalwidth=\skip101
+\mdffootnoteboxheight=\skip102
+\mdffootnoteboxdepth=\skip103
+\mdffootnoteboxtotalheight=\skip104
+\mdftotallinewidth=\skip105
+\mdfboundingboxwidth=\skip106
+\mdfboundingboxtotalwidth=\skip107
+\mdfboundingboxheight=\skip108
+\mdfboundingboxdepth=\skip109
+\mdfboundingboxtotalheight=\skip110
+\mdf@freevspace@length=\skip111
+\mdf@horizontalwidthofbox@length=\skip112
+\mdf@verticalmarginwhole@length=\skip113
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newmdtheoremenv with arg. spec. 'O{} m o m o ' on
+. line 501.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
+. 581.
+.................................................
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-0.mdf"
+File: md-frame-0.mdf 2012/04/08 v1.5: md-frame-0
+)
+\c@mdf@zref@counter=\count186
+Package zref Info: New property: mdf@pagevalue on input line 782.
+\mdf@horizontalspaceofbox=\skip114
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\x11nam.def"
+File: x11nam.def 2007/01/21 v2.11 Predefined colors according to Unix/X11 (UK)
+)){C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}{C:/Program Files/MiKTeX 
+2.9/fonts/map/dvips/knitting/knitfont.map
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitnn' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitwn' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitgn' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitnp' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitwp' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitgp' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitnr' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitnl' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitgg' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitwg' already exists, duplicates i
+gnored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitn_sc_in' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitn_sc_out' already exists, duplic
+ates ignored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitg_sc_in' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitg_sc_out' already exists, duplic
+ates ignored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitw_sc_in' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: pdflatex.EXE (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
+knitting/knitfont.map): fontmap entry for `knitw_sc_out' already exists, duplic
+ates ignored
+} ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+("C:\Users\Shanel Wu\Box Sync\Knitting\Patterns\Helicase\helicase.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 90.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=513.11745pt
+* \textheight=693.79243pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-58.68121pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=19.91684pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen169
+\scratchbox=\box69
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen170
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks21
+)
+\AtBeginShipoutBox=\box70
+ <spread-small.jpg, id=1, 1606.0pt x 1071.00125pt>
+File: spread-small.jpg Graphic file (type jpg)
+ <use spread-small.jpg>
+Package pdftex.def Info: spread-small.jpg used on input line 92.
+(pdftex.def)             Requested size: 513.11745pt x 342.18811pt.
+LaTeX Font Info:    Try loading font information for OT1+qag on input line 95.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tex-gyre\ot1qag.fd"
+File: ot1qag.fd 2009/09/25 v1.2 font definition file for OT1/qag
+)
+LaTeX Font Info:    Font shape `OT1/qag/bx/n' in size <35.83> not available
+(Font)              Font shape `OT1/qag/b/n' tried instead on input line 96.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 106.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 106.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 106.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 128.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
+ [1
+
+ <C:/Users/Shanel Wu/Box Sync/Knitting/Patterns/Helicase/spread-small.jpg>]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 137.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 137.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 142.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 142.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 142.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 144.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 158.
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 197.
+[2]
+
+Package xcolor Warning: Incompatible color definition on input line 228.
+
+
+Package xcolor Warning: Incompatible color definition on input line 228.
+
+LaTeX Font Info:    Try loading font information for U+phv on input line 280.
+LaTeX Font Info:    No file Uphv.fd. on input line 280.
+
+LaTeX Font Warning: Font shape `U/phv/m/n' undefined
+(Font)              using `U/cmr/m/n' instead on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+[3]
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+
+Package xcolor Warning: Incompatible color definition on input line 361.
+
+<backone-small.jpg, id=26, 481.8pt x 602.25pt>
+File: backone-small.jpg Graphic file (type jpg)
+ <use backone-small.jpg>
+Package pdftex.def Info: backone-small.jpg used on input line 365.
+(pdftex.def)             Requested size: 173.44786pt x 216.81pt.
+
+<drape-small.jpg, id=27, 401.5pt x 602.25pt>
+File: drape-small.jpg Graphic file (type jpg)
+ <use drape-small.jpg>
+Package pdftex.def Info: drape-small.jpg used on input line 367.
+(pdftex.def)             Requested size: 144.53989pt x 216.81pt.
+ [4 <C:/Users/Shanel Wu/Box Sync/Knitting/Patterns/Helicase/backone-small.jpg> 
+<C:/Users/Shanel Wu/Box Sync/Knitting/Patterns/Helicase/drape-small.jpg>]
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+<display-small.jpg, id=31, 401.5pt x 602.25pt>
+File: display-small.jpg Graphic file (type jpg)
+ <use display-small.jpg>
+Package pdftex.def Info: display-small.jpg used on input line 446.
+(pdftex.def)             Requested size: 144.53989pt x 216.81pt.
+
+<sidetwo-small.jpg, id=32, 481.8pt x 602.25pt>
+File: sidetwo-small.jpg Graphic file (type jpg)
+ <use sidetwo-small.jpg>
+Package pdftex.def Info: sidetwo-small.jpg used on input line 448.
+(pdftex.def)             Requested size: 173.44786pt x 216.81pt.
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 454.
+ [5 <C:/Users/Shanel Wu/Box Sync/Knitting/Patterns/Helicase/display-small.jpg> 
+<C:/Users/Shanel Wu/Box Sync/Knitting/Patterns/Helicase/sidetwo-small.jpg>]
+("C:\Users\Shanel Wu\Box Sync\Knitting\Patterns\Helicase\helicase.aux")
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10332 strings out of 494045
+ 171725 string characters out of 3148374
+ 348803 words of memory out of 3000000
+ 13417 multiletter control sequences out of 15000+200000
+ 32829 words of font info for 59 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 47i,9n,45p,921b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
+s/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-rm.enc}<C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/knitting/knitgg.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/knitting/knitgn.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/knitting/knitgp.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/tex-gyre/qagr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/palatino/uplri8a.pfb>
+Output written on helicase.pdf (5 pages, 1726563 bytes).
+PDF statistics:
+ 85 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+

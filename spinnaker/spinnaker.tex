@@ -1,0 +1,276 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.7in]{geometry} 		% defines page margin
+\usepackage{knitting} 				% defines \chart and \textknit
+\usepackage{titling} 				% title page
+\usepackage{graphicx,xspace, scrextend}	% defines space control stuff
+\usepackage{tabularx, array, colortbl}	% defines tables
+\usepackage{multicol} 				% defines columns
+\usepackage{multirow} 				% defines multirows, combined cells in tables
+\usepackage{framed} 				% defines boxes for notes and written directions
+\usepackage[x11names]{xcolor} 		% extends color library
+\pdfmapfile{+knitfont.map}
+
+\renewcommand{\arraystretch}{2}
+
+\newcolumntype{L}[1]{>{\leftalign\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% length parameters
+\setlength{\parindent}{0pt} % disables indentation for paragraphs
+\setlength{\columnsep}{0.7cm} % column separation in multicol environment
+
+% color parameters
+\colorlet{framecolor}{black}
+\colorlet{shadecolor}{LemonChiffon1}
+\colorlet{highlight}{yellow}
+
+% custom commands
+\newcommand{\comment}[1]{} % allows for multiline comments that LaTeX will ignore
+
+\newcommand{\vocab}[1]{\emph{\textbf{#1}}} % format for highlighting definitions of stitches, vocabulary terms
+\newcommand{\rowDir}[1]{\textbf{#1:}} % indent for written instructions within paragraphs
+
+\renewcommand{\repeat}[1]{\textbf{*[#1]*}} % format for written repeats, bold with *[ stitches ]*
+\newcommand{\setrepeat}[1]{\textbf{[#1]}}		% format for repeats with set number of repetitions, bold with [ stitches ]
+
+\newcommand{\increase}[1]{(\emph{+#1 
+	\ifnum#1=1{st}\else{sts}\fi})}
+\newcommand{\decrease}[1]{(\emph{$-$#1
+	\ifnum#1=1{st}\else{sts}\fi})}
+\newcommand{\stitchcount}[1]{(\emph{#1 sts})}
+
+\newcommand{\blank}{\underline{\hspace{2em}} }
+
+\newcommand{\spine}[1]{\colorbox{highlight}{#1}}
+
+\renewcommand{\pm}{\vocab{pm}} % place stitch marker
+\newcommand{\sm}{\vocab{sm}} % slip marker
+\renewcommand{\rm}{\vocab{rm}} % remove stitch marker
+
+% thick horizontal line
+\makeatletter \newcommand{\thickhline}{
+    \noalign {\ifnum 0=`}\fi \hrule height 1.5pt
+    \futurelet \reserved@a \@xhline
+}
+\makeatother
+
+% custom environments
+\newenvironment{frnote}
+    {% framed environment for pattern notes
+    	\setlength{\FrameRule}{1.5pt}
+    	\def\FrameCommand{\fboxrule=\FrameRule\fboxsep=\FrameSep \fcolorbox{framecolor}{shadecolor}}
+    	\MakeFramed {\FrameRestore}}
+    {\setlength{\FrameRule}{1pt}
+	\endMakeFramed}
+
+\newenvironment{frdirection}
+    {% framed environment for written directions
+	\def\FrameCommand{\fboxrule=\FrameRule\fboxsep=\FrameSep \fbox}
+   	\MakeFramed {\advance\hsize-\width \FrameRestore}
+    	\addmargin[1.5cm]{0pt}}
+    {\endaddmargin
+	\endMakeFramed}
+
+\newenvironment{unframed}
+    {% unframed environment for written directions
+	\begin{addmargin}[2em]{0pt}
+	\small
+	\setlength{\parindent}{-2em}}
+    {\vspace{1em}
+	\normalsize
+	\end{addmargin}
+	\setlength{\parindent}{0em}}
+
+\title{Whims of the Wind Shawl}
+\author{Shanel Wu (Piper Nell)}
+
+\begin{document}
+\begin{titlingpage}
+\begin{multicols}{2}
+
+% COVER PHOTO
+
+\section*{\thetitle}
+\vspace{-0.5em}
+\subsubsection*{\theauthor}
+
+\subsection*{Yarn Requirements}
+
+At least 400y of yarn in any weight.
+
+\subsection*{Tools}
+
+\begin{itemize}
+\item 32"/100cm or longer circular needle in size appropriate for yarn weight
+\item tapestry needle
+\item 1 stitch marker
+\end{itemize}
+
+\subsection*{Sample Specifications}
+
+Sample A -- needles: US6/4.0mm 40" circular needle -- yarn: Knit Picks Andean Treasure (110y/50g, heavy sport weight) in Finnley (off-white), Calypso (blue-green), Sapphire (medium blue), and Mystery (dark gray).
+
+\subsection*{Techniques}
+
+This pattern is suitable for an advanced beginner. Prior to knitting this pattern, you should be familiar with knits, purls, and basic increases (yo and kfb). For a complete list of stitches used, see Pattern Key.
+
+\vspace{1em}
+Double yarn-overs (yoyo) and working into them are crucial techniques in this pattern. For additional support, refer to the tutorial at the end of the pattern.
+
+\subsection*{Pattern Key}
+
+
+\begin{center}
+\begin{tabular}{| C{0.12\linewidth}  C{0.2\linewidth}  p{0.6\linewidth} | }
+\thickhline \rowcolor{shadecolor} 
+\textbf{Chart}	& \textbf{Written}	& \textbf{Description} \\ \thickhline
+\chart{-}	& k (RS); p~(WS)	&  knit (RS); purl (WS)	\\
+\chart{=} 	& p (RS); k~(WS)	& purl (RS); knit (WS)  \\
+\chart{O} 	& yo		& yarn-over  \\
+\chart{OO}	& yoyo	& double yarn-over \\
+\chart{>}	& k2tog 	& knit 2 together \\
+{}		& kfb		& knit front back: knit in the front loop as usual, then k tbl in the same stitch \\
+\chart{-t} (WS)	& pfb		& purl front back: purl in the front loop as usual, then purl tbl in the same stitch\\
+{}		& w\&t 	& wrap \& turn: s1 purlwise wyib, bring yarn forward, slip st back to l needle, turn (the slipped st is ``wrapped" by the working yarn) \\
+% ADD STITCHES AS NEEDED
+\hline
+\end{tabular}
+\end{center}
+\end{multicols}
+
+\end{titlingpage}
+
+\begin{multicols}{2}
+\section*{0. Color Management}
+% color management
+In this pattern, I leave the color changes up to you. Whether you use one color, a palette of 3-5 coordinating colors, or an eclectic mix of scraps, use your colors in the given shaping methods to create a unique shawl. Always change colors at the beginning of a RS row.
+
+% striping tips
+
+% choosing textures
+
+\subsection*{1. Cast On and Set Up}
+
+Using the long-tail method, CO 6 sts. Turn and work the following rows:
+\begin{unframed}
+\rowDir{Row 1} (RS) k2, \spine{yo, k2tog,} \pm, k2 \stitchcount{6} \\
+\rowDir{Row 2} (WS) k2, \spine{\sm, p2,} k2  \\
+\rowDir{Row 3} k2, \spine{yo, k2tog, \sm, yo,} k2 \stitchcount{7} \\
+\rowDir{Row 4} k3, \spine{\sm, p2,} k2 \\
+\rowDir{Row 5} k2, \spine{yo, k2tog, \sm,} k3 \stitchcount{7} \\
+\rowDir{Row 6} Repeat Row 4. \\
+\rowDir{Row 7} k2, \spine{yo, k2tog, \sm, yo,} k3 \stitchcount{8} \\
+\rowDir{Row 8} k4, \spine{\sm, p2,} k2 \\
+\rowDir{Row 9} k2, \spine{yo, k2tog, \sm,} k4 \stitchcount{8} \\
+\rowDir{Row 10} Repeat Row 8. \\
+\rowDir{Row 11} k2, \spine{yoyo, k2tog, \sm, yo,} k4 \stitchcount{10} \\
+\rowDir{Row 12} k5, \spine{\sm, p1, pfb,} k2 \\
+\end{unframed}
+
+\chart[evenleft]{
+
+=====--t==
+----O>OO--
+====--==
+---->O--
+====--==
+---O>O--
+===--==
+--->O--
+===--==
+--O>O--
+==--==
+-->O--
+}
+
+\vfill
+\columnbreak
+\subsection*{2. Kite Section: $\sim$50\% of yarn}
+The shaping of this section takes place over 4-row repeats, with a 2-stitch garter edging and increases taking place on both sides of a central spine. General formula:
+\begin{unframed}
+\rowDir{Row 1} k2, work to 2 sts from m, \spine{yo, k2tog, \sm,} work to 2 sts from end, k2\\
+\rowDir{Row 2} k2, work to marker, \spine{\sm,} \spine{p1, work 1 st,} work to 2 sts from end, k2\\
+\rowDir{Row 3} k2, work to 2 sts from m, \spine{yoyo, k2tog,} \spine{\sm, yo,} work to 2 sts from end, k2 \\
+\rowDir{Row 4} k2, work to m, \spine{\sm, p1, work kfb or pfb,} work to 2 sts from end, k2
+\end{unframed}
+
+I've provided three texture variations for this section. Work your choice of texture until section is desired size.
+
+\emph{Stockinette variation:}
+\begin{unframed}
+\rowDir{Row 1} (RS) k to 2 sts from marker, \spine{yo, k2tog,} \sm, k to end \\
+\rowDir{Row 2} (WS) k2, p to marker, \sm, \spine{p2,} p to 2 sts from end, k2 \\
+\rowDir{Row 3} k to 2 sts from marker, \spine{yoyo, k2tog,} \sm, yo, k to end \increase{2} \\
+\rowDir{Row 4} k2, p to marker, \sm, \spine{p1, pfb,} p to 2 sts from end, k2
+\end{unframed}
+
+\emph{Garter variation:}
+\begin{unframed}
+\rowDir{Row 1} (RS) k to 2 sts from marker, \spine{yo, k2tog,} \sm, k to end \\
+\rowDir{Row 2} (WS) k to marker, \sm, \spine{p1, k1,} k to end \\
+\rowDir{Row 3} k to 2 sts from marker, \spine{yoyo, k2tog,} \sm, yo, k to end \increase{2} \\
+\rowDir{Row 4} k to marker, \sm, \spine{p1, kfb,} k to end
+\end{unframed}
+
+\emph{Garter ridges variation:}
+\begin{unframed}
+\rowDir{Row 1} (RS) k to 2 sts from marker, \spine{yo, k2tog,} \sm, k to end \\
+\rowDir{Row 2} (WS) k2, p to marker, \sm, \spine{p2,} p to 2 sts from end, k2 \\
+\rowDir{Row 3} k to 2 sts from marker, \spine{yoyo, k2tog,} \sm, yo, k to end \increase{2} \\
+\rowDir{Row 4} k to marker, \sm, \spine{p1, kfb,} k to end
+\end{unframed}
+
+\subsection*{3. Garter Wedge: $\sim$25\% of yarn}
+
+In this section, you will use wrap-and-turn (w\&t) short rows to create a triangular wedge, turning the piece into an asymmetrical triangle. Set up as follows:
+\begin{unframed}
+\rowDir{Set Up 1} (RS) k1, kfb, k1, w\&t \\
+\rowDir{Set Up 2} (WS) k to end
+\end{unframed}
+
+Repeat Rows 1 and 2 until there are 2 unworked sts before the marker (wrapped st will be 3rd from marker). 
+\begin{unframed}
+\rowDir{Row 1} (RS) k1, kfb, k to wrapped st, work wrapped st by inserting needle knitwise into wrap then k together with st, k1, w\&t \\
+\rowDir{Row 2} (WS) k to end
+\end{unframed}
+Work Rows 3 and 4 once.
+\begin{unframed}
+\rowDir{Row 3} (RS) k1, kfb, k to wrapped st, work wrapped st, k2, \rm, k to end of row \\
+\rowDir{Row 4} (WS) k to end
+\end{unframed}
+
+\vfill
+\columnbreak
+
+\subsection*{4. Sail Section: remainder of yarn}
+
+Your shawl is now an asymmetrical triangle. The shaping of this section takes place over 2-row repeats, with a 2-stitch garter edge and increases taking place on one edge only. General formula:
+\begin{unframed}
+\rowDir{Row 1} k1, kfb twice, work to 2 sts from end, k2 \\
+\rowDir{Row 2} k2, work to 2 sts from end, k2
+\end{unframed}
+
+Work your choice of texture until shawl is desired size or until yarn is used up.
+
+\emph{Stockinette variation:}
+\begin{unframed}
+\rowDir{Row 1} k1, kfb twice, k to end \\
+\rowDir{Row 2} k2, p to 2 sts from end, k2
+\end{unframed}
+
+\emph{Garter variation:}
+\begin{unframed}
+\rowDir{Row 1} k1, kfb twice, k to end \\
+\rowDir{Row 2} k to end
+\end{unframed}
+
+\emph{Ribbing variation (requires odd stitch count):}
+\begin{unframed}
+\rowDir{Row 1} k1, kfb, \repeat{k1, p1} to 3 sts from end, k3 \\
+\rowDir{Row 2} k2, \repeat{p1, k1} to 3 sts from end, p1, k2 
+\end{unframed}
+
+Bind off loosely and block. Enjoy your shawl!
+\end{multicols}
+
+\end{document}
